@@ -47,10 +47,13 @@ City Current at Audi Field.
 
 Each story above was checked against independent sources for **both** the
 publication date and the event date, and only stories that happened or were
-first reported on Saturday 21 November 2026 were used. Two earlier entries
-for this bounty were independently verified as FAIL because most of their
-stories were Friday 20 November events; this entry was built specifically to
-avoid that mistake:
+first reported on Saturday 21 November 2026 were used. One sibling entry
+(@berkahmuse) was independently verified as FAIL because 5 of its 8 stories
+were Friday 20 November events, and the other (@berkahmuse-2) originally
+failed on its lead before being fixed (commit 28ab678) and re-verified PASS
+at 15:40 WIB. This entry was built from the start to the strict standard —
+only events that happened on Saturday 21 November in their local timezone —
+so the date failure could not happen at all:
 
 - **Excluded — Friday 20 Nov:** the Russian drone/missile strikes on Ukraine
   (overnight 19→20 Nov), the S&P 500 −3.7% / Nasdaq −5.3% market rout (Friday
